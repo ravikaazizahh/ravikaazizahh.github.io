@@ -1,0 +1,28 @@
+body{
+    background-image:url('BackgroundForm.png'); 
+    background-size:cover
+}
+.wrap{
+    width: 40%;
+    margin: auto;
+    color: rgb(49, 47, 47);
+    border-radius:10px;
+    font-family: comic sans ms;
+    background.color: #FFEFD5;
+}
+.container{
+    padding: 5px;
+}
+table{
+    margin: auto;
+}
+table td{
+    padding: 5px;
+}
+button{
+    width: 60px;
+    font-family: comic sans ms;
+    height: 30px;
+    background.color: #FFEFD5;
+    background.radius: 7px;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulir Pendafatan Olimpiade</title>
+        <link rel="stylesheet" type="text/css" href="design.css">
+    </head>
+    <body>
+        <div class="wrap">
+        <div class="container">
+        <h1><center>Formulir Pendaftaran Olimpiade Komputer</h1></center>
+        <form action="" method=""></form>
+        <p>
+            <center><img src="COMPUTER_OLYMPICS1.png" border="5" style="width:400px;height:300px;" </center>
+        </p>
+        <form name="input">
+            <Fieldset size="20" align="center">
+                <legend>ISI DATA DIRI</legend>
+                
+                <label for="NIM">
+                    NIM           : <input type="NIM" pattern="[0-9]{9}" title="NIM harus diisi dengan 8 angka">
+                </label><br><br>
+
+                <label for="nama">
+                    Nama Lengkap  : <input type="text" title="masukkan nama lengkap anda">
+                </label><br><br>
+            
+                <label for="tanggal">
+                    Tanggal Lahir : <input type="datetime" title="isi sesuai tanggal lahir anda">
+                </label><br><br>
+
+                <label for="gender">
+                    Jenis Kelamin : 
+                    <input type="radio" name="gender" value="man"/> Laki-Laki
+                    <input type="radio" name="gender" value="woman"/> Perempuan
+                </label><br><br>
+
+                <label for="alamat">
+                    Alamat        : <textarea name="alamat" value=""></textarea>
+                </label><br><br>
+
+                <label for="provinsi">
+                    Provinsi      :
+                    <select name="provinsi">
+                        <option>--Pilih Provinsi--</option>
+                        <option>Aceh</option>
+                        <option>Bali</option>
+                        <option>Banten</option>
+                        <option>Bengkulu</option>
+                        <option>Gorontalo</option>
+                        <option>Jakarta</option>
+                        <option>Jambi</option>
+                        <option>Jawa Barat</option>
+                        <option>Jawa Tengah</option>
+                        <option>Jawa Timur</option>
+                        <option>Kalimantan Barat</option>
+                        <option>Kalimantan Selatan</option>
+                        <option>Kalimantan Tengah</option>
+                        <option>Kalimantan Timur</option>
+                        <option>Kalimantan Utara</option>
+                        <option>Kepulauan Bangka Belitung</option>
+                        <option>Kepulauan Riau</option>
+                        <option>Lampung</option>
+                        <option>Maluku</option>
+                        <option>Maluku Utara</option>
+                        <option>Nusa Tenggara Barat</option>
+                        <option>Nusa Tenggara Timur</option>
+                        <option>Papua</option>
+                        <option>Papua Barat</option>
+                        <option>Riau</option>
+                        <option>Sulawesi Barat</option>
+                        <option>Sulawesi Selatan</option>
+                        <option>Sulawesi Tengah</option>
+                        <option>Sulawesi Tenggara</option>
+                        <option>Sulawesi Utara</option>
+                        <option>Sumatera Barat</option>
+                        <option>Sumatera Selatan</option>
+                        <option>Sumatera Utara</option>
+                        <option>Yogyakarta</option>
+                    </select>
+                </label><br><br>
+
+                <label for="kampus">
+                    Asal Kampus    : <input type="AsalKampus" value="">
+                </label><br><br>
+
+                <label for="NoTelp">
+                    No Telp        : <input type="NoTelp" value="">
+                </label><br><br>
+
+                <label for="Photo">
+                    Photo          : <input type="file" name="browse" value="" width="200"/>
+                </label><br><br>
+
+                <button type="submit" name="Kirim">Kirim</button>
+                <button type="reset" name="reset">Batal</button>
+            </Fieldset>
+            <br>
+            <fieldset size="20" align="center">
+                <legend>LOGIN</legend>
+                <label for="email">
+                    Email          : <input type="email">                    
+                </label><br><br>
+
+                <label for="password">
+                    Password       : <input type="password" pattern="[A-Z]{1,}[a-z]{5,}[0-9]{2,}" title="password harus diikuti 2 angka dan minimal 1 huruf kapital">
+                </label><br><br>
+                <button type="submit" name="Kirim">Submit</button>
+                <button type="reset" name="reset">Batal</button>
+
+            </fieldset>
+        </form>
+</table>
+        </div>
+        </div>
+    </body>
+</html>
